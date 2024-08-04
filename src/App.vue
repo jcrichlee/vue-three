@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link> 🤷🏽‍♂️
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
@@ -25,6 +25,16 @@ nav a {
 }
 
 nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+button {
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #dffff0;
+  font-weight: 900;
   color: #42b983;
 }
 </style>
